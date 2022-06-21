@@ -10,7 +10,9 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-image: url("/assets/images/unicorn-zebras-in-colour.jpg") no-repeat cover center center;
+    background-image: url('/assets/images/winter-tree.jpg');
+    background-size: cover;
+    
 }
 
 /* headings and logo */
@@ -19,7 +21,8 @@ h1, h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #ff0000;
+    background-color: rgba(118, 235, 243, 0.2);
 }
 
 #logo {
@@ -33,6 +36,8 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    color: #ff0000;
+    background-color: rgba(118, 235, 243, 0.5);
 }
 
 #menu,
@@ -76,7 +81,7 @@ color: #fff;
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('/assets/images/well-with-mythical-animals.jpg') no-repeat center center;
+    background: url('/assets/images/well-with-mythic-animals.jpg') no-repeat center center;
     background-size: contain;
     
     /* animates zoom effect on loading page*/
@@ -101,13 +106,14 @@ color: #fff;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: right;
 
     width: 300px;
     height: 200px;
     padding-top: 40px;
-    padding-left: 10px;
+    padding-right: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107, .2);
 
     bottom: 30px;
     right: 150px;
@@ -115,9 +121,16 @@ color: #fff;
     position: absolute;
 }
 
-/* club ethos */
+/* Art Mediums */
 
-#club-ethos {
+#medium-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#medium {
     height: 600px; 
 }
 
@@ -233,10 +246,17 @@ text-align: center;
 }
 
 .social-networks i {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(214, 59, 245, 0.2);
+    color: #f10a0a;
+    text-align: center;
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    margin: 1px;
+    padding: 2%;
+       
 }
 
 /* gallery */
