@@ -22,7 +22,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #ff0000;
-    background-color: rgba(118, 235, 243, 0.2);
+    background-color: rgba(184, 235, 3, 0.2);
 }
 
 #logo {
@@ -37,7 +37,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 4px;
     color: #ff0000;
-    background-color: rgba(118, 235, 243, 0.5);
+    background-color: rgba(192, 17, 148, 0.5);
 }
 
 #menu,
