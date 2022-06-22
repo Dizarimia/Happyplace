@@ -10,7 +10,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-image: url('/assets/images/winter-tree.jpg');
+    background-image: url('./assets/images/winter-tree.jpg');
     background-size: cover;
     
 }
@@ -88,7 +88,7 @@ color: #fff;
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('/assets/images/well-with-mythic-animals.jpg') no-repeat center center;
+    background: url('./assets/images/well-with-mythic-animals.jpg') no-repeat center center;
     background-size: contain;
     
     /* animates zoom effect on loading page*/
