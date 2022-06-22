@@ -228,7 +228,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('/assets/images/mediums.jpg') no-repeat center center;
+    background: url('https://dizarimia.github.io/Happyplace/assets/images/mediums.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
     background-size: cover;
