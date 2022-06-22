@@ -50,15 +50,17 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
-    color: #004103;
-    background-color: red;
-    font-weight: 800;
+    margin-right: 2px;
+    color:rgb(53, 15, 158);
+    background-color: rgba(132, 239, 247, 0.4);
+    border-radius: 25%;   
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+    font-size: 150%;
+    font-weight: 800;
 }
 
 #menu a:hover {
@@ -105,7 +107,7 @@ color: #fff;
         transform: scale(1.1);
  }
 }
-
+/*
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -120,8 +122,8 @@ color: #fff;
     bottom: 30px;
     right: 150px;
     position: absolute;
-}
-
+} 
+*/
 /* Art Mediums */
 
 #medium-outer {
