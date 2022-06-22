@@ -27,41 +27,42 @@ h2 {
 }
 
 #logo {
+    font-family: Oswald, sans-serif;
     float: left;
-    font-size: 280%;
-    margin-left: 20px;
+    font-size: 250%;
+    margin-left: 1px;
     background-color: rgba(132, 239, 247, 0.4);
-    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: rgb(53, 15, 158);
-    font-weight: 800;
+    
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 150%;
     letter-spacing: 4px
+    
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 2px;
+    padding: 10px;
     color: rgb(53, 15, 158);
     background-color: rgba(132, 239, 247, 0.4);
-    border-radius: 25%;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
-    font-size: 150%;
     font-weight: 800;
+    padding: 10px;
 }
 
 #menu a:hover {
