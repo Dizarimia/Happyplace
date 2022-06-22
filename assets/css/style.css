@@ -22,7 +22,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #160b53;
-    background-color: rgba(132, 239, 247, 0.2); /* ta bort sen */
+    
 }
 
 #logo {
@@ -31,7 +31,8 @@ h1, h2 {
     margin-left: 20px;
     background-color: rgba(132, 239, 247, 0.4);
     border-radius: 25px;
-    color:rgb(172, 27, 172);
+    color:rgb(53, 15, 158);
+    font-weight: 800;
 }
 
 /* navigation links */
@@ -52,6 +53,7 @@ h1, h2 {
     margin-right: 30px;
     color: #004103;
     background-color: red;
+    font-weight: 800;
 }
 
 #menu a {
@@ -130,19 +132,32 @@ color: #fff;
 }
 
 #medium {
-    height: 600px; 
+    height: 600px;
+    color: #0939bd; 
+    font-weight: 700;
+    font-size: large;
+}
+
+#medium h1, h2 {
+    background-color: rgba(132, 239, 247, 0.3); /* ta bort sen */ 
+    border-radius: 25%;
+    text-align: center;
 }
 
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
+    background-color: rgba(255, 255, 255, 0.5); /* ta bort sen */ 
+    border-radius: 25%;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
+    background-color: rgba(255, 255, 255, 0.5); /* ta bort sen */ 
+    border-radius: 25%;
 }
 
 #center-about {
@@ -181,8 +196,11 @@ hr {
 
 #welcome {
     text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
+    margin: 5px 0;
+    font-size: 250%;
+    background-color: rgba(132, 239, 247, 0.4); /* ta bort sen */ 
+    padding: 2px;
+    border-radius: 5%;
 }
 
 #circle-container {
@@ -194,6 +212,7 @@ border-color: #ccc;
 border-width: 1px;
 border-radius: 50%;
 margin: 0 auto;
+background-color: rgba(37, 107, 236, 0.4); /* ta bort sen */ 
 }
 
 #circle-cover-bg {
