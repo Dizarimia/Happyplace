@@ -12,17 +12,18 @@ body {
     color: #3a3a3a;
     background-image: url('./assets/images/winter-tree.jpg');
     background-size: cover;
-    
+
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #160b53;
-    
+
 }
 
 #logo {
@@ -31,7 +32,7 @@ h1, h2 {
     margin-left: 20px;
     background-color: rgba(132, 239, 247, 0.4);
     border-radius: 25px;
-    color:rgb(53, 15, 158);
+    color: rgb(53, 15, 158);
     font-weight: 800;
 }
 
@@ -41,7 +42,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 4px
 }
-    
+
 #menu,
 #logo {
     line-height: 75px;
@@ -51,9 +52,9 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 2px;
-    color:rgb(53, 15, 158);
+    color: rgb(53, 15, 158);
     background-color: rgba(132, 239, 247, 0.4);
-    border-radius: 25%;   
+    border-radius: 25%;
 }
 
 #menu a {
@@ -81,8 +82,9 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-color: #fff;
+#cover-text,
+#cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -90,7 +92,7 @@ color: #fff;
     width: 100%;
     background: url('./assets/images/well-with-mythic-animals.jpg') no-repeat center center;
     background-size: contain;
-    
+
     /* animates zoom effect on loading page*/
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -105,8 +107,9 @@ color: #fff;
 
     to {
         transform: scale(1.1);
- }
+    }
 }
+
 /*
 #cover-text {
     font-size: 130%;
@@ -135,13 +138,15 @@ color: #fff;
 
 #medium {
     height: 600px;
-    color: #0939bd; 
+    color: #0939bd;
     font-weight: 700;
     font-size: large;
 }
 
-#medium h1, h2 {
-    background-color: rgba(132, 239, 247, 0.3); /* ta bort sen */ 
+#medium h1,
+h2 {
+    background-color: rgba(132, 239, 247, 0.3);
+    /* ta bort sen */
     border-radius: 25%;
     text-align: center;
 }
@@ -150,7 +155,8 @@ color: #fff;
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: rgba(255, 255, 255, 0.5); /* ta bort sen */ 
+    background-color: rgba(255, 255, 255, 0.5);
+    /* ta bort sen */
     border-radius: 25%;
 }
 
@@ -158,12 +164,13 @@ color: #fff;
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: rgba(255, 255, 255, 0.5); /* ta bort sen */ 
+    background-color: rgba(255, 255, 255, 0.5);
+    /* ta bort sen */
     border-radius: 25%;
 }
 
 #center-about {
-       width: 33%;
+    width: 33%;
     margin: 0 auto;
 }
 
@@ -188,6 +195,7 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-about-heading h2 {
     text-align: right;
 }
@@ -200,21 +208,23 @@ hr {
     text-align: center;
     margin: 5px 0;
     font-size: 250%;
-    background-color: rgba(132, 239, 247, 0.4); /* ta bort sen */ 
+    background-color: rgba(132, 239, 247, 0.4);
+    /* ta bort sen */
     padding: 2px;
     border-radius: 5%;
 }
 
 #circle-container {
-width: 300px;
-height: 300px;
-padding: 30px;
-border-style: solid;
-border-color: #ccc;
-border-width: 1px;
-border-radius: 50%;
-margin: 0 auto;
-background-color: rgba(37, 107, 236, 0.4); /* ta bort sen */ 
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: rgba(37, 107, 236, 0.4);
+    /* ta bort sen */
 }
 
 #circle-cover-bg {
@@ -236,10 +246,10 @@ footer {
 }
 
 .social-networks {
-text-align: center;
+    text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -252,7 +262,7 @@ text-align: center;
     font-size: 160%;
     padding: 1%;
     float: left;
-    height: 50px;        
+    height: 50px;
 }
 
 /* gallery */
@@ -261,11 +271,11 @@ text-align: center;
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0px;    
+    column-gap: 0px;
 }
 
-#photos > img {
-    width: 100%;  
+#photos>img {
+    width: 100%;
 }
 
 /* Media queries */
@@ -281,76 +291,80 @@ text-align: center;
     #welcome {
         padding: 30px 0;
         margin: 0;
-}
+    }
 
-#left-about, #right-about {
-    width: 100%;
-    float: left;
-    padding: 0;
-}
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-#center-about {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-}
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-#times > div {
-    width: 100%;
-    clear: both;
-    height: 150px;
-    padding: 0;
-}
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 
-hr {
-    display: none;
-}
+    hr {
+        display: none;
+    }
 }
 
 /* For medium sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-  
-   #menu {
+
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    } 
-    
+    }
+
     #cover-text {
         left: 0;
     }
-    
+
     #medium {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
 
-    #photos{
+    #photos {
         columns: 3;
     }
 }
 
 @media screen and (max-width: 800px) {
-    #photos{
+    #photos {
         columns: 2;
     }
 }
