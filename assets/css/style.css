@@ -35,11 +35,9 @@ h1, h2 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
-    color: #ff0000;
-    background-color: rgba(192, 17, 148, 0.5);
+    letter-spacing: 4px
 }
-
+    
 #menu,
 #logo {
     line-height: 75px;
@@ -49,6 +47,8 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    color: #004103;
+    background-color: red;
 }
 
 #menu a {
@@ -113,7 +113,7 @@ color: #fff;
     padding-top: 40px;
     padding-right: 10px;
 
-    background-color: rgba(241, 109, 107, .2);
+    background-color: rgba(241, 109, 107, .9);
 
     bottom: 30px;
     right: 150px;
@@ -204,37 +204,14 @@ margin: 0 auto;
     background-size: cover;
 }
 
-/* Event times*/
-/* 
-#times {
-    background-image: url('../images/dublin-city.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#times div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-#times h2 {
-    color: #fafafa;
-} */
-
 /* footer */
 
 footer {
-    height: 150px;
+    height: 50px;
+    border: 1px solid rgb(56, 140, 250);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-networks {
@@ -246,17 +223,14 @@ text-align: center;
 }
 
 .social-networks i {
-    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: rgba(214, 59, 245, 0.2);
-    color: #f10a0a;
-    text-align: center;
+    width: 23%;
+    background-color: rgba(41, 97, 119, 0.5);
+    color: #16034b;
     font-size: 160%;
-    margin: 1px;
-    padding: 2%;
-       
+    padding: 1%;
+    float: left;
 }
 
 /* gallery */
