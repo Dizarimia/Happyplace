@@ -36,7 +36,7 @@ h2 {
     padding-right: 10px;
     color: rgb(53, 15, 158);
     max-width: 50%;
-    
+
 }
 
 /* navigation links */
@@ -47,10 +47,11 @@ h2 {
     max-width: 50%;
     color: rgb(53, 15, 158);
     float: right;
-    
+
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
     border: 1px solid rgb(56, 140, 250);
 }
@@ -62,7 +63,7 @@ h2 {
     background-color: rgba(132, 239, 247, 0.4);
     max-height: 50px;
     text-align: right;
-    
+
 }
 
 #menu a {
@@ -86,7 +87,7 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
     position: relative;
 }
 
@@ -100,7 +101,7 @@ h2 {
     width: 100%;
     background: url('https://dizarimia.github.io/Happyplace/assets/images/well-with-mythic-animals.jpg') no-repeat center center;
     background-size: contain;
-    
+
 
     /* animates zoom effect on loading page*/
     animation-name: hero-zoom;
@@ -166,8 +167,8 @@ h2 {
     width: 33%;
     float: left;
     background-color: rgba(255, 255, 255, 0.5);
-    
-    
+
+
 }
 
 #right-about {
@@ -200,7 +201,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    
+
 }
 
 .right-about-heading h2 {
@@ -219,7 +220,6 @@ hr {
     border: 1px solid rgb(56, 140, 250);
     /* ta bort sen */
     padding: 2px;
-    border-radius: 5%;
 }
 
 #circle-container {
@@ -378,6 +378,6 @@ footer {
 @media screen and (max-width: 500px) {
     #photos {
         columns: 1;
-        
+
     }
 }
