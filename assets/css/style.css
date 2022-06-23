@@ -332,6 +332,18 @@ footer {
     }
 }
 
+/* video player */
+
+#video {
+    text-align: center;
+    padding-right: 50px; 
+     background-color: blue;
+     max-width: 50%;
+     float: right;
+     padding-left: 50px;
+         
+}
+
 /* For medium sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
