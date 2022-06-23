@@ -29,6 +29,7 @@ The "creations" page is for the craftier side of my creativity. I have to many t
 
 2 Future ideas:
 Someday i might consider opening a shop to sell some of the stuff i make. It wont happen now, but this will be the perfect space to do so.
+I might give every picture its own page with all info on it, but that would be far in future.
 
 
 3 Technologies used:

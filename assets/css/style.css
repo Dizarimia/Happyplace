@@ -35,6 +35,7 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
     color: rgb(53, 15, 158);
+    max-width: 50%;
     
 }
 
@@ -42,20 +43,26 @@ h2 {
 
 #menu {
     font-size: 150%;
-    letter-spacing: 4px
+    letter-spacing: 4px;
+    max-width: 50%;
+    color: rgb(53, 15, 158);
+    float: right;
     
 }
 
 #menu, #logo {
     line-height: 75px;
+    border: 1px solid rgb(56, 140, 250);
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    padding: 10px;
-    color: rgb(53, 15, 158);
+    padding-bottom: 20px;
     background-color: rgba(132, 239, 247, 0.4);
+    max-height: 50px;
+    text-align: right;
+    
 }
 
 #menu a {
@@ -79,7 +86,7 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
+    
     position: relative;
 }
 
@@ -93,6 +100,7 @@ h2 {
     width: 100%;
     background: url('https://dizarimia.github.io/Happyplace/assets/images/well-with-mythic-animals.jpg') no-repeat center center;
     background-size: contain;
+    
 
     /* animates zoom effect on loading page*/
     animation-name: hero-zoom;
@@ -111,7 +119,7 @@ h2 {
     }
 }
 
-/*
+/* <!-- not sure if i want this or not-->
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -128,6 +136,7 @@ h2 {
     position: absolute;
 } 
 */
+
 /* Art Mediums */
 
 #medium-outer {
@@ -148,8 +157,8 @@ h2 {
 h2 {
     background-color: rgba(132, 239, 247, 0.3);
     /* ta bort sen */
-    border-radius: 25%;
     text-align: center;
+    border: 1px;
 }
 
 #left-about {
@@ -157,8 +166,8 @@ h2 {
     width: 33%;
     float: left;
     background-color: rgba(255, 255, 255, 0.5);
-    /* ta bort sen */
-    border-radius: 25%;
+    
+    
 }
 
 #right-about {
@@ -166,8 +175,6 @@ h2 {
     width: 33%;
     float: right;
     background-color: rgba(255, 255, 255, 0.5);
-    /* ta bort sen */
-    border-radius: 25%;
 }
 
 #center-about {
@@ -182,7 +189,6 @@ hr {
 }
 
 .left-about-heading {
-    width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -210,6 +216,7 @@ hr {
     margin: 5px 0;
     font-size: 250%;
     background-color: rgba(132, 239, 247, 0.4);
+    border: 1px solid rgb(56, 140, 250);
     /* ta bort sen */
     padding: 2px;
     border-radius: 5%;
@@ -219,9 +226,7 @@ hr {
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
+    border: 1px solid rgb(56, 140, 250);
     border-radius: 50%;
     margin: 0 auto;
     background-color: rgba(37, 107, 236, 0.4);
@@ -243,7 +248,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-radius: 25px;
 }
 
 .social-networks {
@@ -273,6 +277,7 @@ footer {
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
+    padding-top: 50px;
 }
 
 #photos>img {
@@ -367,5 +372,12 @@ footer {
 @media screen and (max-width: 800px) {
     #photos {
         columns: 2;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #photos {
+        columns: 1;
+        
     }
 }
