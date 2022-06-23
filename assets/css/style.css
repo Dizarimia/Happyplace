@@ -244,8 +244,8 @@ hr {
 
 footer {
     height: 50px;
-    border: 1px solid rgb(56, 140, 250);
-    position: fixed;
+    position: static;
+    left: 0;
     bottom: 0;
     width: 100%;
 }
@@ -267,7 +267,7 @@ footer {
     font-size: 160%;
     padding: 1%;
     float: left;
-    height: 50px;
+
 }
 
 /* gallery */
