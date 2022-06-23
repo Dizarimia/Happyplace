@@ -270,7 +270,7 @@ footer {
 .social-networks i {
     left: 0;
     bottom: 0;
-    width: 23%;
+    width: 100%;
     background-color: rgba(41, 97, 119, 0.5);
     color: #16034b;
     font-size: 160%;

@@ -76,6 +76,9 @@ I make as much as possible myself, so I know I have permission to use what I hav
 The video was filmed by me, credit to the ocean for being mesmerizing.
 
 Images: 
-https://github.com/Dizarimia/Happyplace/blob/main/assets/images/colouring.png
-https://github.com/Dizarimia/Happyplace/blob/main/assets/images/creation.png
 https://github.com/Dizarimia/Happyplace/blob/main/assets/images/index.jpg
+The features on index are the zooming picture to draw interest, medium text to explain some basics for new artists and a video for soothing the brain.
+https://github.com/Dizarimia/Happyplace/blob/main/assets/images/colouring.png
+Includes a lot of colouring pictures for ideas and inspiration.
+https://github.com/Dizarimia/Happyplace/blob/main/assets/images/creation.png
+This is where the rest of my creativity shows, and hopefully it sparks the users creativity too.
