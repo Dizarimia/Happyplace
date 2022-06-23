@@ -299,6 +299,7 @@ footer {
     max-width: 50%;
     float: right;
    margin-right: 50px;
+   margin-bottom: 50px;
 }
 
 /* Media queries */

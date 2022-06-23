@@ -20,6 +20,7 @@ you into my world of magical colours.
 Mediums: A short description of the mediums I use in my art. 
 Why? Someone might find it useful.
 
+Video: A short, relaxing video of waves against the beach.
 
 The "colouring" page is for my pages I've given life to. Used both as a gallery and as inspiration for new projects.
 
@@ -72,4 +73,9 @@ All the mermaid drawings are from CAMILLA d'ERICO's colouring book, the others a
 The winter tree I use as background was planted by my sister 35 years ago, picture taken by me.
 My creations are made and photographed by me.
 I make as much as possible myself, so I know I have permission to use what I have.
+The video was filmed by me, credit to the ocean for being mesmerizing.
 
+Images: 
+https://github.com/Dizarimia/Happyplace/blob/main/assets/images/colouring.png
+https://github.com/Dizarimia/Happyplace/blob/main/assets/images/creation.png
+https://github.com/Dizarimia/Happyplace/blob/main/assets/images/index.jpg
