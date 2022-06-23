@@ -68,7 +68,7 @@ I have had a lot of help on this project from my mentor, and my classmate Johan 
 My sisters Laila and Viatrix for endless pep talks and cheerleading.
 My cousin Ted, who made me interested in programming to begin with.
 
-I used the template I made for love running as a base for this website.
+I used the template I made for love running as a base for this website https://github.com/Dizarimia/love-running.
 I also used https://github.com/Code-Institute-Org/gitpod-full-template because it makes life easier.
 Table of content order and help with information: https://github.com/dhakal79/readme-template.
 
