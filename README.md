@@ -26,6 +26,8 @@ The "colouring" page is for my pages I've given life to. Used both as a gallery 
 
 The "creations" page is for the craftier side of my creativity. I have to many to give all of them their own page, so they will share. 
 
+Footer: Link to my Instagram for contact. 
+
 
 
 2 Future ideas:
@@ -43,6 +45,9 @@ It works well on everything I've tested, but looks best on bigger screens.
 I've also done the W3C validator and Jigsaw validator.
 I've also used a spellchecker since English isn't my first language. 
 Specifically checked spelling in British because to me that's the real English.
+Lighthouse testing: https://github.com/Dizarimia/Happyplace/blob/main/assets/images/lighthouse.png
+The large images is the main issue.
+
 
 5 Bugs:
 The webpage loads very slow because of all the images, but I do not want to lessen their quality as a lot of work went into all the details on them. Will work on solution.
