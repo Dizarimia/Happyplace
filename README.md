@@ -45,7 +45,7 @@ I've also used a spellchecker since English isn't my first language.
 Specifically checked spelling in British because to me that's the real English.
 
 5 Bugs:
-The webpage loads very slow because of all the images, but I do not want to lessen their quality as a lot of work went into all the details on them.
+The webpage loads very slow because of all the images, but I do not want to lessen their quality as a lot of work went into all the details on them. Will work on solution.
 
 6 Deployment:
 The site was deployed to GitHub pages. 
